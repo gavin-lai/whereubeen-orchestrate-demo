@@ -9,7 +9,7 @@ angular.module('wubApp', ['ui.bootstrap', 'uiGmapgoogle-maps', 'wubServices'])
   .controller('LocationController', function($scope, $http, uiGmapGoogleMapApi, Location) {
   	var locationCtl = this;
 
-  	$scope.map = { center: { latitude: 47.610377, longitude: -122.2006786 }, zoom: 6 };
+  	$scope.map = { center: { latitude: 43.903718, longitude: -79.361654 }, zoom: 7 };
   	$scope.locations = [];
 
 	locationCtl._updateLocations = function() {
